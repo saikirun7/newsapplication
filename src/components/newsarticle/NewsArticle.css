@@ -1,0 +1,43 @@
+.custom-btn {
+    background-color: #2a403d;
+}
+
+.button:hover {
+    color: white;
+    font-weight: 500;
+    box-shadow: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookmark {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+    .bookmark {
+        margin-right:
+            2rem;
+    }
+}
+
+.image {
+    border-radius:
+        20px;
+}
+
+.clock {
+    font-size:
+        large;
+    text-align:
+        center;
+}
+
+.publishedAt {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
